@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+ /* header part css start  */
+ul li {
+    list-style: none;
+}
+body{
+    background-color:  rgba(246, 235, 218, 1);
+    ;
+}
+
+.header-area ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.header-area ul li{
+    margin-left: 30px;
+    margin-top: 20px;
+   
+}
+.menu-text{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 144, 43, 1);
+}
+.header-logo{
+    margin-top: 20px;
+}
+
+.scarch-box{
+    position: absolute;
+    width: 300px;
+
+}
+input{
+    width: 222px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: none;
+   
+    
+    
+
+}
+input:focus{
+    outline: none;
+}
+
+input::placeholder{
+   
+    transform: translate(50px, -3px);
+
+}
+.icons8-search{
+    position: absolute;
+    left: 10px;
+    top: 70%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    opacity: 0.6;
+}
+.cart-logo{
+    position: absolute;
+    right: 210px;
+    top: 4%;
+}
+.bg-img{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 0;
+}
+
+
+
+/* hero part css satrt  */
+span{
+    color:rgba(255, 144, 43, 1) ;
+}
+
+/* .btn{
+    width: 170px;
+    height: 46px;
+    background-color: rgb(71, 48, 0);
+    border-radius: 21px;
+} */
+.btn a {
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 20px;
+    background-color: rgb(71, 48, 0);
+    border-radius: 33px;
+    position: absolute;
+    margin-top: 40px;
+
+
+
+
+}
+.oder-btn-icon{
+    width: 16px;
+    height: 16px;
+}
+.tittle{
+    margin-top: 200px;
+    font-size: 48px;
+}
+.coffee-des{
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+.hero-img{
+    width: 526.7px;
+    height: 400px;
+    margin-top: 113px;
+}
+/* hero part css End  */
+
+/* popular part css start  */
+.bg-img-2{
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+.item-card{
+    width: 343px;
+    height: 373px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid rgb(196, 182, 182);
+    border-radius: 12px;
+   
+}
+.item-img{
+    width: 307px;
+    height: 226px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.item-tittle{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+   line-height: 100%;
+   letter-spacing: 4%;
+   margin-top: 20px;
+   margin-left: 20px;
+
+}
+.item-btn-1{
+    padding: 8px 10px;
+    border: 2px solid rgba(255, 144, 43, 1);
+    color: rgba(255, 144, 43, 1);
+    border-radius: 8px;
+    text-decoration: none;
+   margin-left: 20px;
+   margin-top: 10px;
+   display: inline-block;
+}
+.item-soldnum{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.rating{
+    position: absolute;
+    margin-top: 10px;
+    
+    
+    
+}
+.popular-heading{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.item-bg{
+    width: 1268px;
+    height: 367px;
+    background-color: rgba(249, 217, 170, 1);
+    border-radius: 64px;
+    position: absolute;
+   z-index: -1;
+   top: 119%;
+
+}
+/* popular part css End */
+
